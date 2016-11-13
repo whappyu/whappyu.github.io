@@ -86,12 +86,12 @@
 
 <meta name="description" content="In Doing We Learn!">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Welcome to My Page">
+<meta property="og:title" content="Welcome to Dong's Page">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Welcome to My Page">
+<meta property="og:site_name" content="Welcome to Dong's Page">
 <meta property="og:description" content="In Doing We Learn!">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Welcome to My Page">
+<meta name="twitter:title" content="Welcome to Dong's Page">
 <meta name="twitter:description" content="In Doing We Learn!">
 
 
@@ -115,7 +115,7 @@
 
   <link rel="canonical" href="http://yoursite.com/"/>
 
-  <title> Welcome to My Page </title>
+  <title> Welcome to Dong's Page </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -150,7 +150,7 @@
   <div class="custom-logo-site-title">
     <a href="/"  class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <span class="site-title">Welcome to My Page</span>
+      <span class="site-title">Welcome to Dong's Page</span>
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
@@ -241,6 +241,136 @@
           <div id="content" class="content">
             
   <section id="posts" class="posts-expand">
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/11/13/nextproblem/" itemprop="url">
+                  Next主题，使用hexo+d部署github pages,出现空白页的解决方法
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-11-13T12:07:24+08:00" content="2016-11-13">
+              2016-11-13
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/分享ing/" itemprop="url" rel="index">
+                    <span itemprop="name">分享ing</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/11/13/nextproblem/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/13/nextproblem/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+		  
+		  
+          
+
+          
+          
+
+          
+		  
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>###自己差点换主题，还好找到了解决方法<br>&emsp;&emsp;前两天我看到了一个非常实用的app,而且界面简洁，风格也很喜欢，也想给大家推荐一些实用的神奇软件，或者一些插件。可是当我准备写的时候，next主题出问题了（前期我并不知道是主题的问题，浪费了一个晚上在搞配置方面，不过也有收获，就是现在能闭着眼实用github+hexo了），晚上睡觉前无意去next主题代码托管的地方看了一下，这才知道大家遇到了同样的问题，接下来就给大家说一下解决的方法吧</p>
+<ul>
+<li>首先作者说是手动将<em>source/vendors</em>目录修改为<em>source/lib</em>，同时修改主题配置文件<em>_config.yml</em>，将里面的<em>_internal:vendors</em>改为<em>_internal:lib</em>，可是试了一下还不行</li>
+<li>然后看到github的官方回复邮件，我就在主目录第一个文件<em>.deploy_git</em>加上一个名为<strong>.nojekyll</strong>的空文件就好了，格式为.txt就行。<blockquote>
+<p>从此给自己一个提醒，有问题最好去Next主题官网看一下评论</p>
+</blockquote>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
     
       
 
@@ -574,7 +704,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-count">3</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -582,7 +712,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -591,7 +721,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
